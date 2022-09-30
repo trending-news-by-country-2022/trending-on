@@ -1,0 +1,138 @@
+// this is a dynamically generated file. Please DO NOT store or cache it! Otherwise, metrics, configuration, etc will work incorrectly
+
+var currentScript = document.currentScript || (function() {
+    var scripts = document.getElementsByTagName('script');
+    return scripts[scripts.length - 1];
+})();
+
+(function() {
+    window.TRINITY_PLAYER = window.TRINITY_PLAYER || {
+        isLegacyBrowser: false,
+        isDev: false,
+        options: {
+            useCFCDN: 0,
+            serverSubdomain: '',
+            pageURL: 'https://www.lavanguardia.com/internacional/20220929/8547988/finlandia-cerrara-frontera-turistas-rusos-viernes.html',
+            disabledDepartEvents: ["injectorImp"]        },
+        config: {
+            injectorScript: 'https://vd.trinitymedia.ai/trinity-player/tts-player/20220928_790f1f44f543c0773e8d87e2109138015ac4b2c3/trinity-injector-script.js'
+        },
+        userAgentData: {"browser":"Chrome","os":"Windows","os_ver":"10","device":"Other","browser_ver":"105.0.0","is_bot":false,"is_legacy_browser":false},
+        userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36',
+        SDKData: {"platform":null,"version":null,"app_name":null,"app_version":null},
+        isDebugMode: false,
+        userId: '',
+        server: 'staging-audio',
+        server_region: 'NA',
+        server_env: 'NA',
+        publisherId: '14384',
+        ts: Date.now(),
+        tsServer: 1664450478845,
+        isOembed: 0    };
+
+    const playerId = currentScript.dataset.playerId || '' || 'c752b3a5367247a95a999a600d40dab9'
+    currentScript.setAttribute('data-player-id', playerId); // set dynamically generated ID
+
+    const isWixPlugin = false;
+
+    if (isWixPlugin) {
+        const isWixSetupCompleted = false;
+
+        if (!isWixSetupCompleted) console.warn('TRINITY_WIX_PLUGIN', 'Trinity Player did not load since configuration has not been completed');
+    }
+
+    window.TRINITY_PLAYER.players = window.TRINITY_PLAYER.players || {};
+    window.TRINITY_PLAYER.players[playerId] = {
+        isIframe: '',
+        isAMP: '',
+        abTestAlias: '',
+        adsDurationThreshold: '',
+        cf: 'data:audio/mpeg;base64,SUQzAwAAAAABHVRYWFgAAAAXAAAAQmFuZABBbmFyIFNvZnR3YXJlIExMQ1RYWFgAAAAhAAAAVW5rbm93biB0ZXh0IGluZm9ybWF0aW9uIGZyYW1lADBUQUxCAAAADAAAAEJsYW5rIEF1ZGlvVFBFMQAAABIAAABBbmFyIFNvZnR3YXJlIExMQ1RJVDIAAAAVAAAAMiBTZWNvbmRzIG9mIFNpbGVuY2X/4xjEAArzEcAAAEUl//xje/wKAAMGQjaEACOhKn71Od6nIynO6Eb//5yN+chCVehH5zgYf/4GYCEQn+KYhfCralGbCgTVA0//4xjEDwmKAcgAAEdAK8ShoRHv+sFQ1ErwVUDWCp0RAriUN8qq/8yMjKy1llllBggYKx5QoYGCBx0oMEDgsDguKiv//ioqKir/4xjEIwrSCNgAAEcgLCwsLN/6xUVqTEFNRTMuMTAwqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqo=',
+        contentURL: 'https://www.lavanguardia.com/internacional/20220929/8547988/finlandia-cerrara-frontera-turistas-rusos-viernes.html',
+        documentLoadType: '',
+        documentLoadTypeSelector: '',
+        estimatedDuration: '256', // will be used as mocked duration
+        filters: [{"name":"nodefiltered","params":["author-name","author-bio"]}],
+        FABConfig: {},
+        FABOnly: false,
+        isShowFAB: false,
+        displayExpanded: {},
+        displayOverlay: {"returnToPlayer":{}},
+        isTrinityEnabled: true,
+        isShareEnabled: 0,
+        shareEndpoint: '',
+        articleSelector: '',
+        headlineSelector: '',
+        textSelector: '#main-container>.main-article-container>.article-default .title-container .title,#main-container>.main-article-container>.article-default .article-modules .paragraph',
+        imageSelector: '.article-media-main picture>img',
+        language: 'es',
+        isTranslationEnabled: false,
+        loaderText: '',
+        paramsObject: {},
+        partnerName: '',
+        placeholderSelector: {},
+        playerMode: 'subscription-locked',
+        pubShare: '1',
+        publisherSections: [{"regexp":".com/(?:([a-z]+(?:\\-\\w+)?|\\w+(?:\\-and-\\w+))?)/(?:[\\w\\-\\.]*\\/)*","selector":"","example":"https://www.lavanguardia.com/623/20220215/8058990/tibidabo-consigue-distincion-europea-calidad-gestion.html","type":"url"},{"regexp":".com/[\\w\\-]+\\/(?:([a-z]+(?:\\-\\w+)?|\\w+(?:\\-and-\\w+))?)\\/","selector":"","example":"https://www.lavanguardia.com/comer/love/love-de/8507861/como-reacciona-organismo-ante-refrescos-light.html","type":"url"},{"regexp":".com\\/[\\w-]+\\/[\\w-]+\\/(?:([a-z]+(?:\\-\\w+)?|\\w+(?:\\-and-\\w+))?)\\/","selector":"","example":"https://www.lavanguardia.com/comer/tendencias/love-de/8507861/como-reacciona-organismo-ante-refrescos-light.html","type":"url"}],
+        publisherSectionsAutoEnabled: false,
+        publisherUserId: '',
+        publisherUserIdOptions: '{}',
+        readContentType: '',
+        readContentConfig: '',
+        state: 'not-started',
+        themeData: {"mainButton":{"id":"forbes"},"playerHeight":"90","minWidth":"559px","iframe":{"CSS":{"box-shadow":"2px 5px 12px #0000001a","border-radius":"8px"}},"fonts":[{"link":"https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap"}],"layout":"coda-subscription-locked","loadingIcon":{"color":"#333"},"subscriptionLocked":{"color":"#00006E"}},
+        themeId: '322',
+        unitId: '2900005901',
+        unitType: 'tts-player',
+        version: '20220928_790f1f44f543c0773e8d87e2109138015ac4b2c3'
+    };
+
+    /* NOTE: This script doesn't transpiled. Please use ES5 code here */
+window.TRINITY_PLAYER.injectScript = function(playerId) {
+  var isDOMContentLoaded = false;
+
+  /* TTS could be loaded dynamically and skip DOMContentLoaded event. So check if document already ready as well */
+  function checkIfDocumentReady() {
+    return ['interactive', 'complete', 'loaded'].indexOf(document.readyState) !== -1 || isDOMContentLoaded;
+  }
+
+  function run() {
+    if (document.body) {
+      if (!document.getElementById('trinity-audio-js')) {
+        var js = document.createElement('script');
+        js.type = 'text/javascript';
+        js.setAttribute('crossorigin', 'anonymous');
+        js.setAttribute('fetchpriority', 'high');
+        js.setAttribute('charset', 'UTF-8');
+        js.src = window.TRINITY_PLAYER.config.injectorScript;
+        js.id = 'trinity-audio-js';
+
+        js.addEventListener('load', createPlayer);
+
+        document.body.appendChild(js);
+      } else {
+        if (window.TRINITY_PLAYER.isLoaded) createPlayer();
+        else document.getElementById('trinity-audio-js').addEventListener('load', createPlayer);
+      }
+    }
+  }
+
+  function createPlayer() {
+    if (checkIfDocumentReady()) window.TRINITY_PLAYER.api._internal.createPlayer(playerId);
+    else document.addEventListener('DOMContentLoaded', function() {
+      isDOMContentLoaded = true;
+      window.TRINITY_PLAYER.api._internal.createPlayer(playerId);
+    });
+  }
+
+  run();
+
+  document.addEventListener('DOMContentLoaded', function() {
+    isDOMContentLoaded = true;
+    run();
+  });
+};
+
+    window.TRINITY_PLAYER.injectScript(playerId);
+})();
+var __TRINITY_TAG_TIME__ = 19;
